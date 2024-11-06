@@ -5,3 +5,6 @@ def get_data():
 def process_data(data):
     # Process the data
     return f"Processed {data}"
+
+def button_clicked():
+    print("button clicked")
