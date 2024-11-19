@@ -19,10 +19,7 @@ class App(customtkinter.CTk):
         self.grid_rowconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=1)
         self.grid_rowconfigure(2, weight=1)
-        
-        
 
-        
         #title
         self.title_label = customtkinter.CTkLabel(self, text="Documenter",font=("Kafka", 24,"bold"))
         self.title_label.place(x=50,y=50)
@@ -41,7 +38,9 @@ class App(customtkinter.CTk):
         #2nd option button
         self.button_option_2 = customtkinter.CTkButton(self, image=self.image_O2, command= backend.button_clicked,text="", fg_color="#000522" , hover_color="#484F7D",corner_radius=20)
         self.button_option_2.grid(row=1, column=2)
-    
+
+
+   
     
 
 

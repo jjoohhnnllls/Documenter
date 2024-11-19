@@ -1,8 +1,9 @@
 import backend
-import frontend
+from GUI import App
 
 def main():
-    app = frontend.App()
+    app = App()
+    # start home page
     app.mainloop()
 
 if __name__ == "__main__":
